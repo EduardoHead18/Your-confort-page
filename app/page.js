@@ -35,11 +35,19 @@ export default function Home() {
         </div>
 
         <div className="w-1/2 mb-0 flex justify-end max-h-full overflow-hidden">
+    
           <Image
-            className="rounded-xl"
+            className="rounded-xl "
             src="/assets/screen.png"
             width={300}
             height={300}
+            style={{ objectFit: "contain" }}
+          />
+              <Image
+            className="rounded-xl"
+            src="/assets/screen2.png"
+            width={200}
+            height={200}
             style={{ objectFit: "contain" }}
           />
         </div>
