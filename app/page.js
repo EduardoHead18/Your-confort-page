@@ -25,20 +25,19 @@ export default function Home() {
             >
               Descargar
             </a>
-            <p></p>
           </div>
         </div>
 
         <div className="w-full mt-16 sm-mt-0 mb-4 flex justify-end max-h-full overflow-hidden">
           <Image
-            className="rounded-xl "
+            className="rounded-xl w-[300px] h-[300px] lg:w-[700px] lg:h-[500px] "
             src="/assets/screen.png"
             width={300}
             height={300}
             style={{ objectFit: "contain" }}
           />
           <Image
-            className="rounded-xl"
+            className="rounded-xl w-[200px] h-[200px] lg:w-[300px] lg:h-[400px]"
             src="/assets/screen2.png"
             width={200}
             height={200}
@@ -46,8 +45,8 @@ export default function Home() {
           />
         </div>
       </main>
-      <div className=" min-h-screen p-24 bg-slate-700">
-        <h2 className="text-3xl text-center font-bold text-white">
+      <div className="min-h-screen p-9 lg:p-24 bg-slate-700">
+        <h2 className="text-3xl  font-bold text-white">
           Términos y condiciones {" "}
         </h2>
         <p className="text-xl mt-16">Información general</p>
